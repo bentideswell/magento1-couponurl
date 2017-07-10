@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Fishpig_CouponUrl>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Fishpig_CouponUrl>
+	</modules>
+</config>

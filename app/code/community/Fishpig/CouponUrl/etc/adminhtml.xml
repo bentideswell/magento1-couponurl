@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<couponurl translate="title" module="couponurl">
+										<title>Coupon URL</title>
+										<sort_order>990</sort_order>
+									</couponurl>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>

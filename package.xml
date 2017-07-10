@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Fishpig_CouponUrl</name>
+    <version>1.2.0.4</version>
+    <stability>stable</stability>
+    <license uri="http://fishpig.co.uk/license.txt">FishPig EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Activate coupons via pretty URL's</summary>
+    <description>Activate coupons via pretty URL's</description>
+    <notes>Fixed compatibility with the Fire Checkout module.</notes>
+    <authors><author><name>fishpig</name><user>fishpig</user><email>ben@fishpig.co.uk</email></author></authors>
+    <date>2016-11-21</date>
+    <time>09:38:54</time>
+    <contents><target name="magecommunity"><dir name="Fishpig"><dir name="CouponUrl"><dir name="Block"><dir name="Adminhtml"><dir name="Promo"><dir name="Quote"><dir name="Edit"><dir name="Tab"><file name="Couponurl.php" hash="7c97e84ad5d589c916e5d86ebb1a9b3f"/></dir></dir></dir></dir></dir></dir><dir name="Controller"><file name="Router.php" hash="68a00e8849aa0d7a30e38980ca27dbf1"/></dir><dir name="Helper"><file name="Data.php" hash="5e73e9fb9ec99c7da51f54b49a51bdeb"/></dir><dir name="controllers"><file name="CouponController.php" hash="be9019c3ebf6c012f8684ac601502b5e"/></dir><dir name="etc"><file name="adminhtml.xml" hash="25e5adb41ecf564b79e610dc4e11ee99"/><file name="config.xml" hash="d9f1cc3138f3cbd63acfb484dbd13e78"/><file name="system.xml" hash="1fca9c16cd74faf09ef4b36e66818cef"/></dir></dir></dir></target><target name="mageweb"><dir name="app"><dir name="etc"><dir name="modules"><file name="Fishpig_CouponUrl.xml" hash="fc9b40cffb6323c24311dcb36b0d1eb9"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>8.0.0</max></php></required></dependencies>
+</package>
