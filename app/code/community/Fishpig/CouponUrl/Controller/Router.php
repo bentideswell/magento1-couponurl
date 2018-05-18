@@ -72,6 +72,10 @@ class Fishpig_CouponUrl_Controller_Router extends Mage_Core_Controller_Varien_Ro
 	 */
 	public function checkForUrlParamsObserver()
 	{
+		if (Mage::app()->getStore()->isAdmin()) {
+			return $this;
+		}
+
 		if (Mage::app()->getRequest()->getParam(Fishpig_CouponUrl_Helper_Data::REDIRECT_PARAM)) {
 			return $this;
 		}
